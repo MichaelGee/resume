@@ -3,7 +3,8 @@
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
-
+ @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+ @import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
@@ -30,8 +31,9 @@ h6 {
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 4rem;
   line-height: 5.5rem;
+  font-family: 'ZCOOL XiaoWei', serif;
 }
 
 h2 {
@@ -42,10 +44,15 @@ h3 {
   font-size: 2rem;
 }
 
-p.lead {
-  font-size: 1.15rem;
+.lead p {
+  font-size: 1.70rem;
   font-weight: 400;
+  font-family: 'EB Garamond', serif;
 }
+
+p{
+  font-size: 1.20rem !important;
+} 
 
 .subheading {
   text-transform: uppercase;
